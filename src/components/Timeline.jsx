@@ -7,7 +7,7 @@ const data = [
         title: 'Georgia Institute of Technology',
         duration: 'M.S. in Computer Science ',
         details:
-        'Specialization in Machine Learning <br/> Starting in Fall 2024!'
+        'Specialization in Machine Learning <br/> Relevant Coursework: Artificial Intelligence, Machine Learning for Trading, LLM Seminar'
     },
     {
         year: "2020-24",
