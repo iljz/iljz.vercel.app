@@ -14,7 +14,7 @@ const data = [
         title: 'University of Illinois at Urbana-Champaign',
         duration: 'Mechanical Engineering | Computer Science Minor',
         details:
-        'Relevant Coursework: Data Structures, Numerical Methods, Computational Photography, Object-Oriented Programming, Signal Processing, Data Science in Manufacturing Qualtiy Control, Mechanical Design'
+        'Relevant Coursework: Data Structures & Algorithms, Object-Oriented Programming, Numerical Methods, Computational Photography, Signal Processing, Data Science in Manufacturing Qualtiy Control, Mechanical Design'
     },
     {
         year: "2016-20",

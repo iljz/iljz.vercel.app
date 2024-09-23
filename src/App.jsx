@@ -5,6 +5,7 @@ import Timeline from './components/Timeline'
 import Projects from './components/Projects'
 import Languages from './components/Languages'
 import Resume from './components/Resume'
+import Experience from './components/Experience'
 
 function App() {
 
@@ -14,6 +15,7 @@ function App() {
         <Main />
         <Languages />
         <Projects />
+        <Experience />
         <Timeline />
         <Resume />
       </div>
