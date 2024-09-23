@@ -10,6 +10,14 @@ const data = [
         'Specialization in Machine Learning <br/> Relevant Coursework: Artificial Intelligence, Machine Learning for Trading, LLM Seminar'
     },
     {
+        year: "June - September 2024",
+        title: "Software Engineer Fellow",
+        duration: "Headstarter AI",
+        details:
+            "Built 5 full-stack AI projects using React, Next.js, Firebase, Clerk, and AWS <br/>Implemented continuous integration and deployment practices using GitHub Actions and Vercel <br/>Presented technical demos to industry engineers and incorporated feedback to optimize code quality and user experience"
+
+    }
+    {
         year: "2020-24",
         title: 'University of Illinois at Urbana-Champaign',
         duration: 'Mechanical Engineering | Computer Science Minor',
