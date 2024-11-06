@@ -3,23 +3,30 @@ import ExpItem from './ExpItem'
 
 const data = [
     {
+        year: 'October 2024 - Present',
+        title: 'Full Stack Developer',
+        company: 'Georgia Tech Aerospace Systems Design Lab (EIDE Team)',
+        details:
+        'Building EIDE web applications and data pipelines'
+    },
+    {
         year: "July - September 2024",
         title: 'Software Engineer Fellow',
-        duration: 'Headstarter AI',
+        company: 'Headstarter AI',
         details:
         'Built AI Projects using React, Node.js, JavaScript, Python, Firebase, Clerk, and other technologies <br/> Learned about industry practices and technical skills from industry professionals'
     },
     {
         year: "February - May 2024",
         title: 'Software Engineer Intern',
-        duration: 'TekCrafter',
+        company: 'TekCrafter',
         details:
         'Worked on web development projects and built a full-stack application <br/> Refactored features and worked in Agile environment'
     },
     {
         year: "June - August 2022",
         title: 'Project Engineer Intern',
-        duration: 'Balfour Beatty US',
+        company: 'Balfour Beatty US',
         details:
         'Carried out essential duties for the electrification project of the Caltrain Corridor <br/> Developed Python scripts to automate directory file management and created a database for easy access to project files <br/>Carried out field tests to gather trackway data'
     }

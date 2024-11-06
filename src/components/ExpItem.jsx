@@ -1,6 +1,6 @@
 import React from 'react'
 
-const ExpItem = ({year, title, duration, details}) => {
+const ExpItem = ({year, title, company, details}) => {
   return (
     <ol className='flex flex-col md:flex-row relative border-l border-stone-100'>
         <li className='mb-10 ml-4'>
