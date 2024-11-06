@@ -7,7 +7,7 @@ const data = [
         title: 'Full Stack Developer',
         company: 'Georgia Tech Aerospace Systems Design Lab (EIDE Team)',
         details:
-        'Building EIDE web applications and data pipelines'
+        'Building EIDE Research Team web applications and data pipelines'
     },
     {
         year: "July - September 2024",
