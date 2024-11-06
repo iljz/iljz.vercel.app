@@ -7,6 +7,7 @@ import DFImg from '../assets/Domain Fusion.png'
 import EduSage from '../assets/edusage.jpg'
 import PantryTracker from '../assets/pantrytracker.jpg'
 import GrubGuide from '../assets/uiucgrubguide.jpg'
+import PoC from '../assets/pico_scholar.png'
 // find more photos or maybe use youtube videos
 
 const Projects = () => {
@@ -17,6 +18,7 @@ const Projects = () => {
             Hover over for more info!
         </p>
         <div className='grid sm:grid-cols-2 gap-12'>
+            <ProjectItem img={PoC} title='PICO Scholar' skills_used={'Python, RAG, LlamaIndex, Docker, OpenVino'} description={'An application designed to automate and streamline the process of conducting systematic literature reviews, particularly in the field of biomedicine. The app leverages advanced AI technologies to assist researchers in efficiently managing and analyzing large volumes of scientific literature. '} link={'https://github.com/datagero/pico-scholar'}/>
             <ProjectItem img={GrubGuide} title='GrubGuide UIUC' skills_used={'React, Python, RAG, Vercel, Yelp API'} description={'A chatbot designed to help UIUC students find food options. Contains a knowledge base of UIUC restaurants from Yelp API. Implements RAG using Pinecone vector database. Project link in Github README.'} link={'https://github.com/JiafengDu/grubguide-rag'}/>
             <ProjectItem img={DFImg} title='Image Compositing Tool' skills_used={'Python, OpenCV'} description={'A program that places an object from one image into another image and blends it in using gradient domain fusion'} link={'https://github.com/isaac-ljz/Gradient-Domain-Fusion/tree/main'}/>
             <ProjectItem img={FRFImg} title='Face Swap Filter' skills_used={'Python, Dlib, OpenCV'} description={'A face swap filter using facial detection that takes one video with one face and an image of another face'} link={'https://github.com/iljz/Video-Face-Replacement-App'}/>
