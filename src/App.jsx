@@ -17,7 +17,7 @@ function App() {
         <Projects />
         <Experience />
         <Timeline />
-        <Resume />
+        {/* <Resume /> */}
       </div>
   )
 }

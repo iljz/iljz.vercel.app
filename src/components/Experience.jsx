@@ -6,7 +6,7 @@ const data = [
         year: 'January 2025 - May 2026',
         title: 'Graduate Research Assistant',
         company: 'Design Intelligence Lab',
-        details: 'Working on Jill Watson, Artificial Intelligence Teaching Assistant'
+        details: 'Working on Jill Watson, AI Virtual Teaching Assistant advised by Professor Ashok Goel'
     },
     {
         year: 'October 2024 - Present',
@@ -44,7 +44,7 @@ const Experience = () => {
             Experience
         </h1>
         {data.map((item,idx)=> (
-            <ExpItem key={idx} year={item.year} title={item.title} duration={item.duration} details={item.details}/>
+            <ExpItem key={idx} year={item.year} title={item.title} company={item.company} details={item.details}/>
         ))}
     </div>
   )
