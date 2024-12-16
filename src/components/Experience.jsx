@@ -3,6 +3,12 @@ import ExpItem from './ExpItem'
 
 const data = [
     {
+        year: 'January 2025 - May 2026',
+        title: 'Graduate Research Assistant',
+        company: 'Design Intelligence Lab',
+        details: 'Working on Jill Watson, Artificial Intelligence Teaching Assistant'
+    },
+    {
         year: 'October 2024 - Present',
         title: 'Full Stack Developer',
         company: 'Georgia Tech Aerospace Systems Design Lab (EIDE Team)',
