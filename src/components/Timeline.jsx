@@ -5,9 +5,9 @@ const data = [
     {
         year: "2024-26",
         title: 'Georgia Institute of Technology',
-        major: 'Masters of Science in Computer Science ',
+        major: 'Masters of Science in Computer Science - Main Campus',
         details:
-        'Machine Learning Specialization <br/> Relevant Coursework: Artificial Intelligence, Machine Learning for Trading, Machine Learning'
+        'Artificial Intelligence Specialization <br/> Relevant Coursework: Artificial Intelligence, Machine Learning for Trading, Machine Learning, Game AI'
     },
     {
         year: "2020-24",
@@ -34,7 +34,7 @@ const data = [
 ]
 const Timeline = () => {
   return (
-    <div id='timeline' className='max-w-[1040px] m-auto md:pl-20 lg:pl-4 p-4 py-16'>
+    <div id='education' className='max-w-[1040px] m-auto md:pl-20 lg:pl-4 p-4 py-16'>
         <h1 className='text-4xl font-bold text-center  py-4'>
             Education
         </h1>

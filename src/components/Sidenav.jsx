@@ -35,7 +35,7 @@ const Sidenav = () => {
               <span className = 'pl-4'>Projects</span>
             </a>
             <a onClick={handleNav}
-             href = '#timeline' className='w-[75%] flex justify-center items-center rounded-full shadow-lg bg-gray-800 shadow-black m-2 p-4 cursor-pointer hover:scale-110 ease-in duration-200'>
+             href = '#education' className='w-[75%] flex justify-center items-center rounded-full shadow-lg bg-gray-800 shadow-black m-2 p-4 cursor-pointer hover:scale-110 ease-in duration-200'>
               <FaGraduationCap size = {20} />
               <span className = 'pl-4'>Education</span>
             </a>
@@ -68,6 +68,14 @@ const Sidenav = () => {
                 </span>
               </div>
               <div className='flex flex-col relative group'>
+                <a href = "#experience" className = 'rounded-full shadow-lg bg-gray-900 shadow-black m-2 p-4 cursor-pointer hover:scale-110 ease-in duration-300'>
+                  <IoNewspaperOutline size={20} color='white'/>
+                </a>
+                <span className='absolute -right-3 transform translate-x-16 bottom-1/3 bg-gray-800 shadow-lg shadow-black text-white text-xs rounded-md px-2 py-1 opacity-0 group-hover:opacity-100 transition-opacity duration-300'>
+                  Experience
+                </span>
+              </div>
+              <div className='flex flex-col relative group'>
                 <a href = "#projects" className = 'rounded-full shadow-lg bg-gray-900 shadow-black m-2 p-4 cursor-pointer hover:scale-110 ease-in duration-300'>
                   <GrProjects size={20} color='white'/>
                 </a>
@@ -76,7 +84,7 @@ const Sidenav = () => {
                 </span>
               </div>
               <div className='flex flex-col relative group'>
-                <a href = "#timeline" className = 'rounded-full shadow-lg bg-gray-900 shadow-black m-2 p-4 cursor-pointer hover:scale-110 ease-in duration-300'>
+                <a href = "#education" className = 'rounded-full shadow-lg bg-gray-900 shadow-black m-2 p-4 cursor-pointer hover:scale-110 ease-in duration-300'>
                   <FaGraduationCap size={20} color='white'/>
                 </a>
                 <span className='absolute -right-6 transform translate-x-12 bottom-1/3 bg-gray-800 shadow-lg shadow-black text-white text-xs rounded-md px-2 py-1 opacity-0 group-hover:opacity-100 transition-opacity duration-300'>
@@ -87,14 +95,6 @@ const Sidenav = () => {
               <a href = "#resume" className = 'rounded-full shadow-lg bg-gray-900 shadow-black m-2 p-4 cursor-pointer hover:scale-110 ease-in duration-300'>
                 <BsPerson size={20} color='white'/>
               </a>*/}
-              <div className='flex flex-col relative group'>
-                <a href = "#resume" className = 'rounded-full shadow-lg bg-gray-900 shadow-black m-2 p-4 cursor-pointer hover:scale-110 ease-in duration-300'>
-                  <IoNewspaperOutline size={20} color='white'/>
-                </a>
-                <span className='absolute -right-3 transform translate-x-12 bottom-1/3 bg-gray-800 shadow-lg shadow-black text-white text-xs rounded-md px-2 py-1 opacity-0 group-hover:opacity-100 transition-opacity duration-300'>
-                  Resume
-                </span>
-              </div>
             </div>
           </div>
     </div>

@@ -35,7 +35,7 @@ const Main = () => {
             />
           </h2>
           <div className='flex pt-5'>
-            <a href="https://www.linkedin.com/in/isaac-lo-jz/">
+            <a href="https://www.linkedin.com/in/iljz/">
               <FaLinkedin className='cursor-pointer mr-5' size={30} />
             </a>
             <a href="https://github.com/iljz">

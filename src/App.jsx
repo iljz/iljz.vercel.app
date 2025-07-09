@@ -14,10 +14,10 @@ function App() {
         <Sidenav />
         <Main />
         <Languages />
-        <Projects />
         <Experience />
+        <Projects />
         <Timeline />
-        <Resume /> 
+        {/* <Resume />  */}
       </div>
   )
 }
